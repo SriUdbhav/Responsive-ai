@@ -1,0 +1,28 @@
+# Environment variables and secrets (NEVER commit these)
+.env
+.env.local
+.env.development
+.env.production
+*.env
+.streamlit/secrets.toml
+
+# Allow .env.example template to be tracked
+!.env.example
+
+# Python virtual environments & bytecode
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Scratch & temporary testing files
+scratch/
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
